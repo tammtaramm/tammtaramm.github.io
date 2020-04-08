@@ -1,0 +1,110 @@
+body {
+  width: 1400px;
+  margin: -20px;
+}
+header {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  font-family: "Abril Fatface", cursive;
+  color: #222 grey;
+}
+.header {
+  position: absolute;
+  top: 220px;
+  left: 350px;
+}
+#line2 {
+  position: absolute;
+  font-size: 65px;
+  margin-top: 50px;
+}
+div {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #222 grey;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+  line-height: 140%;
+}
+ul {
+  list-style-type: square;
+  font-family: "Josefin Sans", sans-serif;
+  color: #222 grey;
+}
+blockquote {
+  background: #222;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 50px;
+  font-family: "Abril Fatface", cursive;
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 10px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+blockquote::before {
+  content: "\201C";
+  position: relative;
+  font-size: 100px;
+  top: -0px;
+}
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222 grey;
+  font-size: 16px;
+}
+section {
+  color: #222 grey;
+  font-size: 18px;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+  line-height: 130%;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 20px;
+}
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 60px;
+}
+h4 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: -20px;
+}
+footer {
+  border-top: 5px solid;
+  font-size: 18px;
+  color: #222 grey;
+  margin-left: 250px;
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+  line-height: 140%;
+}
+#end {
+  margin-top: 50px;
+}
